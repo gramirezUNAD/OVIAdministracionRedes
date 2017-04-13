@@ -45,19 +45,22 @@ header{
 
 nav{
 	width: 995px;
-	height: 70px;
+	height: 90px;
 	background: #FFFFFF;
 	border: solid;
 	border-color: #004669;
 	border-radius:10px;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
+
 }
 
 ul{
 	margin: auto;
 	padding-top: 4px;
+
 }
+
 
 li{
 	float: left;
@@ -114,4 +117,32 @@ p{
 	text-align: justify;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+
+nav li a:hover {
+
+	background-color: #FEE600; 
+}
+
+nav li ul {
+
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+nav li:hover > ul {
+	display: block;
+}
+
+nav li ul li{
+	display: inline;
+	width: 70px;
+	height: 10px;		
+	background-color:none;		
+	list-style-type: none;
+	padding: 10px 20px;
+	margin-left: 4px; 
+
 }
