@@ -37,6 +37,15 @@ h4{
 	font-size: 20px;
 	text-align: left;
 }
+h5{
+	font-family: verdana;
+	color: #000000;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: left;
+}
 
 header{
 	width: 1000px;
@@ -168,4 +177,11 @@ nav>ul>li>a:hover{
 	background: #3669a3;
 }
 
-
+img{
+	display: block;
+	margin: auto;
+}
+iframe{
+	display: block;
+	margin: auto;
+}
