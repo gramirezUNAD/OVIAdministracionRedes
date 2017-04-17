@@ -185,3 +185,9 @@ iframe{
 	display: block;
 	margin: auto;
 }
+.article{
+    padding:1px;
+}
+.section{
+	overflow-x:scroll;
+}
